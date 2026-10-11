@@ -1,0 +1,55 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    
+    /* filtro oscuruto para que se vea un poquito opaco */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('imagen/image.jpeg'); /*colocas cualquier imagen, con tal de especificar el nombre*/
+    
+    /* Propiedades para que la imagen se ajuste perfectamente a la pantalla */
+    background-size: cover;          /* Cubre toda la pantalla sin deformarse */
+    background-position: center;     /* Centra la imagen */
+    background-repeat: no-repeat;    /* Evita que la imagen se repita como mosaico */
+    background-attachment: fixed;    /* Mantiene el fondo fijo al deslizar */
+    
+    /* color del parrafito chiquito */
+    color: #E0F7FA;
+    /* Estilo para agrandar el párrafo */
+.texto-grande {
+    font-size: 20px;      /* Puedes subir o bajar este número (ej. 20px, 24px, 28px) */
+    font-weight: bold;    /* Opcional: le da un toque más negrita para que resalte más */
+    margin-bottom: 15px;  /* Da un poco de espacio de separación debajo del texto */
+}
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #b3dafa;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
